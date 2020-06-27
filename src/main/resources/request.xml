@@ -1,0 +1,12 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:usr="http://vkiprono.com/courses"
+>
+
+    <soapenv:Header/>
+    <soapenv:Body>
+        <usr:getUserRequest>
+            <usr:name>Cheka</usr:name>
+        </usr:getUserRequest>
+    </soapenv:Body>
+
+</soapenv:Envelope>
